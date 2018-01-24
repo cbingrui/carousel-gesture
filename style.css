@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#carouse-area {
+  width: 100%;
+  height: 100%;
+}
+
+#circle {
+  position: absolute;
+  border: 1px dashed red;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.circle-hide {
+  display: none;
+}
+
+.img-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(173, 50, 50);
+}
+
+.test-container {
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+}
