@@ -7,7 +7,7 @@
     "build:prod": "webpack --config ./webpack.config.prod",
     "build:dev": "webpack-dev-server --open --config ./webpack.config.dev",
     "build-host:dev":
-      "webpack-dev-server --open --config ./webpack.config.dev --host 192.168.1.100"
+      "webpack-dev-server --open --config ./webpack.config.dev --host lab.mylocalhost.test"
   },
   "keywords": ["carousel", "circle", "gesture", "switch", "gallery", "images"],
   "repository": {
